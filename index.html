@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content="width = device-width,initial scale = 1.0">
+        <title>Incand and my expectations</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <header>        
+            <h1>My Expectations from my first ever Incand fest</h1>
+        </header>
+        <main>
+            <section class = "expectations">
+                <h2>Exciting Events</h2>
+                <div class="event-images">
+                    <img src = "bose2.png">
+                    <img src = "concert.png">
+                    <img src = "classical.png">
+                    <img src = "art.png">
+                    <img src = "food.png">
+                </div>
+                <ul>                    
+                    <li>Cultural Fashion Show</li>
+                    <li>Dance competitions</li>
+                    <li>Art Exhibitions</li>
+                    <li>Food festivals</li>
+                    <li>Music Concerts</li>
+                </ul>
+            </section>
+            <section class = "expectations">
+                <h2>Fun Activities</h2>
+                <div class="activity-images">
+                    <img src = "gam.png">
+                    <img src  = "prize.png">
+                    <img src = "seminar.png">
+                    <img src = 'dj.png'>
+
+                </div>
+                <ul>
+                    <li>Game zones</li>
+                    <li>Workshops and seminars</li>
+                    <li>Prize distribution</li>
+                    <li>DJ Night</li>
+                </ul>
+            </section>
+            <section class = "expectations">
+                <h2>Eternal Moments</h2>
+                <div class="moment">
+                    <img src = "friends.png">
+                    <img src  = "meet.png">
+                    <img src = "armaan.png">
+                </div>
+                <ul>
+                    <li>Meeting new people</li>
+                    <li>Taking memorable shots with friends in Photobooths</li>
+                    <li>Enjoying the timeless night with my favourite artist</li>
+                </ul>
+            </section>
+        </main>
+    <footer>
+        <p>&copy; 2025:Expectations from Incand Fest </p>
+    </footer> 
+    <script>
+        const expectations = document.querySelectorAll('.expectations');
+        expectations.forEach((expectation) =>
+        {
+            expectation.addEventListener('mouseover', ()=>
+            {
+                expectation.style.backgroundColor='#ccc';
+            });
+            expectation.addEventListener('mouseout', ()=>
+            {
+                expectation.style.backgroundColor='#f7f7f7';
+            });
+        });
+    </script>   
+    </body>
+</html>
